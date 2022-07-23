@@ -1,2 +1,0 @@
-# iimcore.github.io
-fd
