@@ -469,13 +469,13 @@
 
             <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e99386dfe6c10984005949a135d54018"></script>
             <script>
-                var Container = document.getElementById('map'), // 지도를 표시할 div
+                var container = document.getElementById('map2'), // 지도를 표시할 div
                     option = {
                         center: new kakao.maps.LatLng(37.56170714301528, 126.85306609567687), // 지도의 중심좌표
                         level: 3 // 지도의 확대 레벨
                     };
 
-                var map2 = new kakao.maps.Map(Container, option);
+                var map2 = new kakao.maps.Map(container, option);
                 var markerPosition  = new kakao.maps.LatLng(37.56170714301528, 126.85306609567687);
 
                 // 마커를 생성합니다
