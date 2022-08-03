@@ -444,28 +444,7 @@
                 </p>
             </div>
             <br/>
-            <div id="map" class="wow fadeInUp" style="width:100%;height:350px;"></div>
-
-            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=32408f3e3bb744d2c4e931e60944a8e7"></script>
-            <script>
-                var mapContainer = document.getElementById('map'), // 지도를 표시할 div
-                    mapOption = {
-                        center: new kakao.maps.LatLng(37.56170714301528, 126.85306609567687), // 지도의 중심좌표
-                        level: 3 // 지도의 확대 레벨
-                    };
-
-                var map = new kakao.maps.Map(mapContainer, mapOption);
-                var markerPosition  = new kakao.maps.LatLng(37.56170714301528, 126.85306609567687);
-
-                // 마커를 생성합니다
-                var marker = new kakao.maps.Marker({
-                    position: markerPosition
-                });
-
-                // 마커가 지도 위에 표시되도록 설정합니다
-                marker.setMap(map);
-            </script>
-            dddddddddddd
+           
             <div id="map2" class="wow fadeInUp" style="width:100%;height:350px;"></div>
 
             <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e99386dfe6c10984005949a135d54018"></script>
@@ -473,7 +452,7 @@
                 var container = document.getElementById('map2'), // 지도를 표시할 div
                     option = {
                         center: new kakao.maps.LatLng(37.523032, 127.0433759), // 지도의 중심좌표
-                        level: 3 // 지도의 확대 레벨 37.523032!4d127.0433759
+                        level: 6 // 지도의 확대 레벨 37.523032!4d127.0433759
                     };
 
                 var map2 = new kakao.maps.Map(container, option);
@@ -488,9 +467,19 @@
                 marker.setMap(map2);
                 
             </script>
-            <div>지도 바로가기 : https://map.kakao.com/link/map/37.523032,127.0433759</div>
-            <div>길찾기 바로가기 : https://map.kakao.com/link/to/더청담웨딩홀,37.523032,127.0433759</div>
-            <div>로드뷰 바로가기 : https://map.kakao.com/link/roadview/37.523032,127.0433759</div>
+            <div style="text-align:center; ">
+            <a href="https://map.kakao.com/link/to/더청담웨딩홀,37.523032,127.0433759" target="_blank" style="width: 100px;position:relative;">
+                <img src="img/kakaoto.png"/>
+            </a>
+            <a href="https://map.kakao.com/link/roadview/37.523523,127.043321" target="_blank" style="width: 100px;position:relative;">
+                <img src="img/kakaoload.png"/>
+            </a>
+            </div>
+<!-- 
+            <div class="section51-location">지도 바로가기 : <a href="https://map.kakao.com/link/to/더청담웨딩홀,37.523032,127.0433759" target="_blank" class="section51-location">카카오지도앱 길찾기</a></div>
+            <div class="section51-location">지도 바로가기 : <a href="https://map.kakao.com/link/roadview/37.523523,127.043321" target="_blank" class="section51-location">카카오지도앱 로드뷰</a></div> -->
+
+
 
             <div class="wow fadeInUp section6-location p-3">
                 <div class="accordion" id="accordionExample">
