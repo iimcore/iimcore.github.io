@@ -45,13 +45,13 @@ a:hover {
   font-size: 1.7rem;
 }
 .top-title-sub1{
-  background-color: #CC9999;
-  color: rgb(255, 255, 255);
+  background-color: #EAE7DC;
+  color: #E85A4F;
+  line-height: 3em;
   text-shadow: none;
   font-family: NanumMyeongjo-b;
   font-size: 1.2rem;
 }
-
 .top-title-sub{
   margin-top: 1em;
   color: #333;
