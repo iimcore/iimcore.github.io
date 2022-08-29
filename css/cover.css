@@ -227,13 +227,15 @@ header {
 .section1-sub {
   font-family: NanumMyeongjo-b;
   line-height: 2.1em;
-  font-size: 1.35rem;
+  font-size: 1rem;
+  text-align: left;
+  margin: 10px;
 }
 
 .section1-sub2 {
   font-family: NanumMyeongjo-b;
   line-height: 2.1em;
-  font-size: 1.35rem;
+  font-size: 1rem;
 }
 
 .section1-sub2 .small {
@@ -308,14 +310,15 @@ header {
 
 .section4-sec1 {
   font-family: NanumMyeongjo-r;
-  line-height: 1.5em;
+  line-height: 2em;
   font-size: 1rem;
+  margin:-10px
 }
 
 .section4-sec2 {
   font-family: NanumMyeongjo-b;
   line-height: 1.5em;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
 }
 
 .section4-sec3 {
