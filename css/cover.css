@@ -310,15 +310,14 @@ header {
 
 .section4-sec1 {
   font-family: NanumMyeongjo-r;
-  line-height: 2em;
-  font-size: 1rem;
-  margin:-10px
+  line-height: 1.5em;
+  font-size: 1.3rem;
 }
 
 .section4-sec2 {
   font-family: NanumMyeongjo-b;
   line-height: 1.5em;
-  font-size: 1.0rem;
+  font-size: 1.3rem;
 }
 
 .section4-sec3 {
@@ -328,6 +327,13 @@ header {
   background: none;
   border: none;
   color: #55CCCC;
+}
+.section4-sec4 {
+  font-family: NanumMyeongjo-b;
+  line-height: 1.5em;
+  font-size: 1.3rem;
+  text-align: right;
+  padding-right: 2rem;
 }
 
 .section4-sec3-g {
