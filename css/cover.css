@@ -56,8 +56,26 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+.line1 {
+  margin-top: 10px;;
+  border: none;
+  border-top: 3px double #E85A4F;
+  color: #E85A4F;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+.line1:after {
+  background: #fff;
+  content: '초대합니다';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
 .top-title {
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 1em;
   color: #333;
   text-shadow: none;
@@ -65,7 +83,7 @@ a:hover {
   font-size: 1.7rem;
 }
 .top-title-sub1{
-  background-color: #fad7d5;
+  background-color: #ffffff;
   color: #E85A4F;
   line-height: 3em;
   text-shadow: none;
@@ -176,7 +194,7 @@ body {
 
 .cover-heading {
   margin-top: 7.5rem;
-  color: #769293;
+  color: #E85A4F;
   font-family: NanumMyeongjo-b;
 }
 
@@ -212,9 +230,15 @@ header {
  */
 .section1-title {
   margin-top: 1em;
-  color: #333;
+  color: #ffffff;
   text-shadow: none;
   font-size: 1rem;
+}
+
+.covered {
+  background-image: url("../img/eyes4.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .section1-main {
@@ -227,9 +251,9 @@ header {
 .section1-sub {
   font-family: NanumMyeongjo-b;
   line-height: 2.1em;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: left;
-  margin: 10px;
+  margin: 20px;
 }
 
 .section1-sub2 {
@@ -522,3 +546,7 @@ header {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+
+
+
