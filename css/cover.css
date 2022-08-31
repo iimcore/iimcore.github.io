@@ -57,7 +57,7 @@ a:hover {
 }
 
 .line1 {
-  margin-top: 10px;;
+  margin-top: 20px;;
   border: none;
   border-top: 3px double #E85A4F;
   color: #E85A4F;
@@ -68,11 +68,29 @@ a:hover {
 
 .line1:after {
   background: #fff;
-  content: '초대합니다';
+  content: '💌 초대합니다';
   padding: 0 4px;
   position: relative;
   top: -13px;
 }
+
+.line2 {
+  margin-top: 20px;;
+  border: none;
+  border-top: 3px double #E85A4F;
+  color: #E85A4F;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+.line:after {
+  background: #fff;
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
 
 .top-title {
   margin-top: 2em;
@@ -80,7 +98,7 @@ a:hover {
   color: #333;
   text-shadow: none;
   font-family: NanumMyeongjo-b;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .top-title-sub1{
   background-color: #ffffff;
@@ -194,7 +212,7 @@ body {
 
 .cover-heading {
   margin-top: 7.5rem;
-  color: #E85A4F;
+  color: #000000;
   font-family: NanumMyeongjo-b;
 }
 
@@ -229,7 +247,6 @@ header {
  * section
  */
 .section1-title {
-  margin-top: 1em;
   color: #ffffff;
   text-shadow: none;
   font-size: 1rem;
@@ -238,7 +255,7 @@ header {
 .covered {
   background-image: url("../img/eyes4.jpg");
   background-size: cover;
-  background-position: center;
+  
 }
 
 .section1-main {
@@ -253,7 +270,7 @@ header {
   line-height: 2.1em;
   font-size: 1.2rem;
   text-align: left;
-  margin: 20px;
+  margin: 5px;
 }
 
 .section1-sub2 {
@@ -350,7 +367,7 @@ header {
   font-size: 1rem;
   background: none;
   border: none;
-  color: #55CCCC;
+  color: #f49bc2;
 }
 .section4-sec4 {
   font-family: NanumMyeongjo-b;
@@ -366,7 +383,7 @@ header {
   font-size: 1rem;
   background: none;
   border: none;
-  color: #FF99CC;
+  color: #f49bc2;
 }
 
 .section5 {
@@ -410,7 +427,7 @@ header {
 
 .section5-table tr .check{
   color: white;
-  background-color: chocolate;
+  background-color: #f49bc2;
   border-radius: 50px;
 }
 
